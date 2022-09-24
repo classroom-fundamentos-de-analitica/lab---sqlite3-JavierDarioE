@@ -19,6 +19,6 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
 SELECT
-    count(*)
+    COUNT(*)
 FROM
     tbl1;
