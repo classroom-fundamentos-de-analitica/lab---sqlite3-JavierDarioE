@@ -43,3 +43,8 @@
 -- 
 --  >>> Escriba su codigo a partir de este punto <<<
 --
+SELECT *
+FROM
+    tbl1
+WHERE k0 not in ("A", "B") and c13 not in (200, 900)
+ORDER BY c14 ASC;
