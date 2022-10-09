@@ -41,7 +41,7 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
-SELECT strftime('%Y',c23),
+SELECT strftime('%Y', c23),
 	printf("%.13f", avg(c21)) as "avg(c21)"
 FROM
     tbl2
