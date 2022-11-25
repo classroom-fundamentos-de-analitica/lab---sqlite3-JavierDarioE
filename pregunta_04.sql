@@ -40,3 +40,9 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
+SELECT
+    K0,
+	c16
+FROM
+    tbl1 INNER JOIN tbl0 USING (K0)
+WHERE K0 like substr(c16, 1, 1);
